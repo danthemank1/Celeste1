@@ -1,1 +1,14 @@
-404: Not Found
+{
+  "cacheBootResources": true,
+  "config": [],
+  "debugBuild": false,
+  "entryAssembly": "Celeste.Wasm",
+  "icuDataMode": 0,
+  "linkerEnabled": true,
+  "resources": {
+    "assembly": {},
+    "runtime": {
+      "dotnet.wasm": ""
+    }
+  }
+}
