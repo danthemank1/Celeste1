@@ -1,19 +1,10 @@
 {
   "mainAssemblyName": "Celeste.Wasm",
-  "assemblyResources": {},
-  "runtime": {
-    "dotnet.wasm": ""
-  },
   "resources": {
     "assembly": {},
-    "runtime": {
-      "dotnet.wasm": ""
-    },
-    "runtimeAssets": {
-      "dotnet.wasm": {
-        "behavior": "dotnetwasm"
-      }
-    }
+    "wasmNative": {},
+    "jsModuleNative": {},
+    "runtime": {}
   },
   "cacheBootResources": true,
   "debugBuild": false,
