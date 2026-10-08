@@ -1,14 +1,21 @@
 {
-  "cacheBootResources": true,
-  "config": [],
-  "debugBuild": false,
-  "entryAssembly": "Celeste.Wasm",
-  "icuDataMode": 0,
-  "linkerEnabled": true,
+  "mainAssemblyName": "Celeste.Wasm",
+  "assemblyResources": {},
+  "runtime": {
+    "dotnet.wasm": ""
+  },
   "resources": {
     "assembly": {},
     "runtime": {
       "dotnet.wasm": ""
+    },
+    "runtimeAssets": {
+      "dotnet.wasm": {
+        "behavior": "dotnetwasm"
+      }
     }
-  }
+  },
+  "cacheBootResources": true,
+  "debugBuild": false,
+  "linkerEnabled": true
 }
